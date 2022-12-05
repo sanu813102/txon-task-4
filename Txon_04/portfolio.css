@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,700;1,700&display=swap'); 
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    /* background:url('https://th.bing.com/th/id/R.28852f61addece72edfeaeadd4fd8c6e?rik=PmtOgXXjOnoCIg&riu=http%3a%2f%2fwww.bloglet.com%2fgallery%2fcreative-design%2fcreative-design1.jpg&ehk=PIRIWWHggXuGEuk%2bcaR9SKw1DpkMEdD2Q291IWCAJBc%3d&risl=&pid=ImgRaw&r=0') ; */
+    background: url('port.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.navbar {
+    text-align: right;
+    margin-right:200px ;
+    border: solid 8px black;
+    background-color: #070606;
+    width: 100%;
+    
+}
+
+
+a{
+    color: rgb(88, 110, 121);
+    text-align: right ;
+    font-size: 25px;
+    font-weight: italic;
+    padding: 3px 8px;
+    margin: 2px 8px;
+    text-decoration: cornsilk;
+}
+a:hover{
+    background-color: rgb(208, 210, 64);
+    border-radius:30px ;
+}
+
+.home h2{
+    font-size: 45px;
+    text-align:left;
+    /* margin-left: 250px; */
+    color: blue;
+
+}
+.home p{
+    font-size:30px;
+    text-align:left;
+    /* margin-left: 250px; */
+    color: rgb(86, 48, 83);
+}
+.home img{
+    margin-right: 250px;
+    float: right;
+    object-position: center;
+}
+.about h1{
+    text-align: center;
+    font-size: 60px;
+    text-decoration: underline;
+    font-weight: 200;
+    color: rgb(182, 196, 56);
+
+}
+.about p{
+    padding: 0.5px;
+    /* margin-left: 150px; */
+    font-size: 25px;
+    font-weight: 200;
+    color: rgb(171, 239, 165);
+}
+b{
+    color: rgb(105, 98, 238);
+    font-size: 35px;
+}
+.skills h1{
+    /* display: inline; */
+    color: rgb(227, 237, 185);
+    background-color: rgb(135, 189, 239);
+    font-size: 50px;
+    font-weight: 700;
+    /* margin-left: 250px ; */
+    text-align: center;
+}
+.skills p{
+    font-size: 18px;
+    color: rgb(174, 156, 156);
+} 
+.skills h2 {
+    color: rgb(241, 21, 113);
+    font-size: 35px;
+    font-weight: bolder
+    color;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(15rem,4fr));
+    gap: 1rem;
+}
+.box{
+    /* height]; */
+    border-radius: 45px;
+    padding:0.9rem 2rem;
+    background: rgb(233, 220, 157);
+    outline:auto;
+    outline-offset: -1rem;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+}
+.box:hover{
+    outline: auto;
+    outline-offset: 0rem;
+}
+.box img{
+    margin:1rem 0;
+    height: 12rem;
+}
+.contact img{
+    margin:1rem 0;
+    height: 5rem;
+}
+#contact h1{
+    text-align: center;
+    /* margin-left: 250px; */
+    font-size: 50px;
+    text-decoration: underline;
+    font-weight: 200;
+    color: rgb(229, 147, 202);
+   
+}
+/* .container1{
+    display: inline;
+} */
+#contact p{
+    font-size: 20px;
+}
+.contact-left{
+
+    display: inline;
+    
+    flex-basis: 35%;
+}
+
+.contact-right{
+    display: flex;
+    flex-basis: 100%;
+}
+
+.contact-left p{
+   color: rgb(63, 169, 240);
+    margin-top: 30px;
+}
+.contact-left p i{
+   text-align: center;
+    color: #ff004f;
+   margin-right: 15px;
+   font-size: 25px;
+}
+.social-icons{
+   margin-top: 30px;
+}
+.social-icons a{
+   text-decoration: none;
+   font-size: 35px;
+   margin-right: 15px;
+   color: #2a9fca;
+   display: inline-block;
+  transition:transform 0.5s;
+}
+
+.social-icons a:hover{
+   color: #ec6c17;
+   transform: translateY(-5px);
+}
+
+.btn.btn2{
+    text-align: center;
+    display: inline-block;
+   background: #cc92a5;
+}
+.btn.btn2:hover{
+    background-color: #c4bfbf;
+}
+.contact-right form{
+   width: 100%;
+}
+.contact-right button{
+    margin-left :45%;
+}
+
+form input,form textarea{
+    display: flex;
+    align-items: center;
+    width:100%;
+    font-size: 20px;
+    border: 0;
+   outline: none;
+   background: #c4bfbf;
+   padding: 15px;
+   margin: 15px 0;
+   color: rgb(48, 39, 39);
+   font-size: 18px;
+   border-radius: 6px;
+}
+
+form .btn2{
+   text-align: center;
+    padding: 14px 60px;
+   font-size: 18px;
+   margin-top: 20px;
+   cursor: pointer;
+}
+.copyright{
+   width: 100%;
+   text-align: center;
+   padding: 25px 0;
+   background:#776e6e;
+   font-weight: 300;
+   margin-top: 20px;
+}
+.copyright i{
+   color: #31b5d6;
+}
